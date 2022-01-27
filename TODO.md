@@ -7,3 +7,7 @@
   for all matcher classes.
 * [ ] Add function based matcher - given a function, return a matcher that can be used 
   to wrap any type, then call the function at comparison time.
+* [ ] set up black
+* [ ] add mypi typing
+* [ ] add flake8 / pyqa / flakehell linting
+* [ ] add coverage report uploads and tests
