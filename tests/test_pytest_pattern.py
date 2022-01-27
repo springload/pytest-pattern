@@ -82,3 +82,12 @@ def test_endswith(faker):
 
     assert endswith(suffix) == text
     assert endswith(prefix) != text
+
+
+def test_within_containers(faker):
+    text = faker.sentence()
+    prefix = text[:len(text)//2]
+    middle = text[len(text)//4:-len(text)//4]
+    suffix = text[-len(text)//2:]
+
+    assert [startswith(prefix), endswith(suffix), {'d': contains(middle)}] == [text, text, {'d': text}]
