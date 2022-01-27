@@ -23,4 +23,4 @@ To release a new version,
 1. Update the version in the setup.cfg file.
 2. Tag the commit once on the main branch with `vM.m` format tag. 
 3. Create a release in github.
-4. Add another link to [the SL index pytest-pattern](https://springload.github.io/python-package-index/pytest-pattern) page in the [repo](https://github.com/springload/python-package-index/edit/pytest-pattern-initial-release/pytest-pattern/index.html).
+4. Add another link to [the SL index pytest-pattern](https://springload.github.io/python-package-index/pytest-pattern) page in the [repo](https://github.com/springload/python-package-index/edit/main/pytest-pattern/index.html).
